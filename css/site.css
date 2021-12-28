@@ -1,0 +1,79 @@
+/* Set images to resize according to div area */
+.image {
+    max-width:100%;
+    max-height:100%;
+}
+
+/* layout css */
+.center-page {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+body {
+    background-image: url("backgroundpic.jpg") ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.form .message{
+    margin: 15px 0 0;
+    color:aliceblue;
+    font-size: 15px;
+}
+
+.form .message a{
+    color: #298aca;
+    text-decoration: none;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(208, 219, 160, 0.8);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input{
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button{
+    text-transform: uppercase;
+    outline: 0;
+    background: #44a047;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color:#ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+/* Removing borders */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.footer {
+    width: 100%;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
