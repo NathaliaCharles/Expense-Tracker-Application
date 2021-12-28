@@ -1,7 +1,7 @@
 # Expense-Tracker-Application
 
 ### Deployment site
-1. Github:  
+1. Github: https://github.com/NathaliaCharles/Expense-Tracker-Application
 2. Host PHP online: http://projectassign.iceiy.com/new/index.html
 
 ### Features
